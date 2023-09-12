@@ -1,5 +1,5 @@
 <script setup>
-import Landing from "./components/Landing.vue";
+import LandingButtons from "./components/LandingButtons.vue";
 </script>
 
 <template>
@@ -15,7 +15,7 @@ import Landing from "./components/Landing.vue";
   </header>
 
   <main>
-    <Landing />
+    <LandingButtons />
   </main>
 </template>
 
