@@ -21,7 +21,7 @@ import Landing from "./components/Landing.vue";
 
 <style scoped>
 header {
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 .logo {
