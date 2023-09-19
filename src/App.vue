@@ -7,7 +7,7 @@ import Catalogue from './Catalogue.vue'
 const routes = {
   '/': Landing,
   '/blog': Blog,
-  '/calalogue': Catalogue
+  '/catalogue': Catalogue
 }
 
 const currentPath = ref(window.location.hash)
