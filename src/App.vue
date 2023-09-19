@@ -1,44 +1,27 @@
 <script setup>
-import LandingButtons from "./components/LandingButtons.vue";
+import { ref, computed } from 'vue'
+import Landing from './Landing.vue'
+import Blog from './Blog.vue'
+import Catalogue from './Catalogue.vue'
+
+const routes = {
+  '/': Landing,
+  '/blog': Blog,
+  '/calalogue': Catalogue
+}
+
+const currentPath = ref(window.location.hash)
+
+window.addEventListener('hashchange', () => {
+  currentPath.value = window.location.hash
+})
+
+const currentView = computed(() => {
+  return routes[currentPath.value.slice(1) || '/'] || NotFound
+})
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="greetings">
-      <h1 class="green">{{ "Natamara" }}</h1>
-      <h3>
-        nachhaltige Kosmetik
-      </h3>
-    </div>
-  </header>
-
-  <main>
-    <LandingButtons />
-  </main>
+  <a href="#/">Home</a> | <a href="#/blog">Blog</a> | <a href="#/catalogue">Katalog</a>
+  <component :is="currentView" />
 </template>
-
-<style scoped>
-header {
-  line-height: 1.3;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-}
-</style>
