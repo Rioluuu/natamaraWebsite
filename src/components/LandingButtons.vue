@@ -5,21 +5,21 @@
         <div class="container">
           <h2>Unsere Produkte</h2>
           <p>Entdecken Sie unsere Produkte</p>
-          <router-link to="/produkte" class="btn btn-primary">Produkte anzeigen</router-link>
+          <a href="#/catalogue" class="btn btn-primary">Produkte anzeigen</a>
         </div>
       </section>
       <section class="blog">
       <div class="container">
         <h2>Blog</h2>
         <p>Über die Herstellung unserer Produkte</p>
-        <router-link to="/blog" class="btn btn-primary">Blog aufrufen</router-link>
+        <a href="#/blog" class="btn btn-primary">Blog aufrufen</a>
       </div>
       </section>
       <section class="about">
         <div class="container">
           <h2>Über uns</h2>
           <p>Erfahren Sie mehr über uns</p>
-          <router-link to="/ueber-uns" class="btn btn-primary">Über uns erfahren</router-link>
+          <a href="#/about" class="btn btn-primary">Über uns erfahren</a>
         </div>
       </section>
     </main>

@@ -3,7 +3,7 @@
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding-left: 2rem;
 
   font-weight: normal;
 }
@@ -28,6 +28,11 @@ a,
 
 .btn-primary {
   background-color: #41b883;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: rgb(2, 233, 156);
 }
 
 @media (hover: hover) {

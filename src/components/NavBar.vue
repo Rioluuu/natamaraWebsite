@@ -1,8 +1,9 @@
 <template>
   <ul>
-    <li><a href="#/">Home</a></li>
-    <li><a href="#/blog">Blog</a></li>
-    <li><a href="#/catalogue">Katalog</a></li>
+    <li><h3>Natamara</h3></li>
+    <li><a href="#/"><h3>Home</h3></a></li>
+    <li><a href="#/catalogue"><h3>Katalog</h3></a></li>
+    <li><a href="#/blog"><h3>Blog</h3></a></li>
   </ul>
 </template>
 
@@ -16,18 +17,9 @@ ul {
 
 li {
   float: left;
-}
-
-li a {
-  display: block;
-  padding: 8px;
-  background-color: green;
+  display: flex;
+  padding: 12px;
+  padding-left: 0px;
   text-decoration: none;
-}
-
-li a:hover {
-  text-decoration: none;
-  background-color: yellowgreen;
-
 }
 </style>
