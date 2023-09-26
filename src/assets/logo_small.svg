@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1005 499" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="M--Farbe-" serif:id="M (Farbe)" transform="matrix(1.91092,0,0,1.91092,-443.497,-186.879)">
+        <g id="R" transform="matrix(-1,0,0,1,990.058,-0.439674)">
+            <path id="left-bottom" serif:id="left bottom" d="M496.02,224.138C464.018,208.399 434.646,213.097 407.522,235.253C445.284,247.882 474.39,243.399 496.02,224.138Z" style="fill:none;stroke:rgb(105,125,101);stroke-width:2.77px;"/>
+            <path id="left-middle" serif:id="left middle" d="M496.02,224.138C485.659,180.43 452.259,157.117 396.125,153.93C414.063,202.75 446.566,227.469 496.02,224.138Z" style="fill:none;stroke:rgb(105,125,101);stroke-width:2.77px;"/>
+            <g id="L-U" serif:id="L U">
+                <path id="L-U1" serif:id="L U" d="M473.085,160.746C466.005,148.889 458.773,136.673 442.448,134.047" style="fill:none;stroke:rgb(105,125,101);stroke-width:2.77px;"/>
+                <path id="left-up" serif:id="left up" d="M442.421,162.461C439.286,149.38 441.796,144.017 441.998,134.227" style="fill:none;stroke:rgb(105,125,101);stroke-width:2.77px;"/>
+            </g>
+        </g>
+        <g id="L">
+            <path id="left-bottom1" serif:id="left bottom" d="M496.02,224.138C464.018,208.399 434.646,213.097 407.522,235.253C445.284,247.882 474.39,243.399 496.02,224.138Z" style="fill:none;stroke:rgb(105,125,101);stroke-width:2.77px;"/>
+            <path id="left-middle1" serif:id="left middle" d="M496.02,224.138C485.659,180.43 452.259,157.117 396.125,153.93C414.063,202.75 446.566,227.469 496.02,224.138Z" style="fill:none;stroke:rgb(105,125,101);stroke-width:2.77px;"/>
+            <g id="L-U2" serif:id="L U">
+                <path id="L-U3" serif:id="L U" d="M473.626,161.556C463.303,148.799 450.579,140.095 434.254,137.468" style="fill:none;stroke:rgb(105,125,101);stroke-width:2.77px;"/>
+                <path id="left-up1" serif:id="left up" d="M436.298,160.66C434.243,156.134 434.052,147.259 434.254,137.468" style="fill:none;stroke:rgb(105,125,101);stroke-width:2.77px;"/>
+            </g>
+        </g>
+        <path id="middle" d="M496.02,224.138C465.232,194.087 465.746,153.215 495.738,102.154C522.964,145.849 525.823,186.82 496.02,224.138Z" style="fill:none;stroke:rgb(105,125,101);stroke-width:2.77px;"/>
+    </g>
+</svg>
