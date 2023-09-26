@@ -3,12 +3,14 @@ import { ref, computed } from 'vue'
 import Landing from './Landing.vue'
 import Blog from './Blog.vue'
 import Catalogue from './Catalogue.vue'
+import About from './About.vue'
 import NavBar from './components/NavBar.vue'
 
 const routes = {
   '/': Landing,
   '/blog': Blog,
-  '/catalogue': Catalogue
+  '/catalogue': Catalogue,
+  '/about': About
 }
 
 const currentPath = ref(window.location.hash)
