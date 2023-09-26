@@ -1,6 +1,6 @@
 <template>
   <ul>
-    <li><h3>Natamara</h3></li>
+    <li><img src="../assets/logo_small.svg" width=150></li>
     <li><a href="#/"><h3>Home</h3></a></li>
     <li><a href="#/catalogue"><h3>Katalog</h3></a></li>
     <li><a href="#/blog"><h3>Blog</h3></a></li>
