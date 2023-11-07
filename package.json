@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "marked": "^9.1.5",
-    "vue": "^3.3.4"
+    "vue": "^3.3.8"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.4.0",
