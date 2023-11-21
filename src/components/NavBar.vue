@@ -1,15 +1,18 @@
 <template>
-  <ul>
-    <li><img src="../assets/logo_small.svg" width=150></li>
+  <div>
+    <ul>
+    <li><img src="../assets/logo_small.svg" height="25px"></li>
     <li><a href="#/"><h3>Home</h3></a></li>
     <li><a href="#/catalogue"><h3>Katalog</h3></a></li>
     <li><a href="#/blog"><h3>Blog</h3></a></li>
     <li><a href="#/about"><h3>Über uns</h3></a></li>
   </ul>
+  </div>
 </template>
 
 <style>
 ul {
+  background-color: darkgray;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,8 +22,7 @@ ul {
 li {
   float: left;
   display: flex;
-  padding: 12px;
-  padding-left: 0px;
+  padding: 8px;
   text-decoration: none;
 }
 </style>
