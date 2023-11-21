@@ -7,12 +7,20 @@
 
 main {
   padding: 16px;
+  padding-top: 0;
+}
+
+footer {
+  text-align: center;
+  bottom: 10px;
+  width: 100%;
+  position: absolute;
 }
 
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: #697d65;
   transition: 0.4s;
 }
 
@@ -28,17 +36,17 @@ a,
 }
 
 .btn-primary {
-  background-color: #41b883;
+  background-color: #89a383;
 }
 
 li a:hover {
   text-decoration: none;
-  color: rgb(2, 233, 156);
+  color: #89a383;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    text-shadow: 0 0 4px #89a383;
   }
 }
 

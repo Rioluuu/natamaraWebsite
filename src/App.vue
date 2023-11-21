@@ -27,4 +27,7 @@ const currentView = computed(() => {
 <template>
   <NavBar />
   <component :is="currentView" />
+  <footer>
+    <p>&copy; 2023 Natamara. Alle Rechte vorbehalten.</p>
+  </footer>
 </template>

@@ -1,28 +1,31 @@
 <template>
-  <div class="about-us">
-    <section class="history">
-      <h2>Unsere Gründungsgeschichte</h2>
-      <p>
-        Hier können Sie Ihre Gründungsgeschichte oder Hintergrundinformationen über Ihr Unternehmen oder Team hinzufügen.
-      </p>
-    </section>
+  <main>
+    <div class="about-us">
+      <section class="history">
+        <h2>Unsere Gründungsgeschichte</h2>
+        <p>
+          Hier können Sie Ihre Gründungsgeschichte oder Hintergrundinformationen über Ihr Unternehmen oder Team hinzufügen.
+        </p>
+      </section>
 
-    <section class="team-photo">
-      <h2>Unser Team</h2>
-      <img src="assets/gruppenfoto.jpg" alt="Unser Team" />
-    </section>
+      <section class="team-photo">
+        <h2>Unser Team</h2>
+        <!-- <img src="assets/gruppenfoto.jpg" alt="Unser Team" /> -->
+      </section>
 
-    <section class="product-ideas">
-      <h2>Unsere Produktideen</h2>
-      <ul>
-        <li>Seife: Wie letztes Jahr bieten wir wieder Seife </li>
-        <li>Handcreme: Beschreibung der zweiten Produktidee.</li>
-        <li>Labelo: Beschreibung der dritten Produktidee.</li>
-        <li>Peelings: </li>
-        <!-- Fügen Sie weitere Produktideen nach Bedarf hinzu -->
-      </ul>
-    </section>
-  </div>
+      <section class="product-ideas">
+        <h2>Unsere Produktideen</h2>
+        <ul>
+          <li>Seife: Wie letztes Jahr bieten wir wieder Seife </li>
+          <li>Handcreme: Beschreibung der zweiten Produktidee.</li>
+          <li>Labelo: Beschreibung der dritten Produktidee.</li>
+          <li>Peelings: </li>
+          <!-- Fügen Sie weitere Produktideen nach Bedarf hinzu -->
+        </ul>
+      </section>
+    </div>
+  </main>
+
 </template>
 
 <script>
