@@ -1,31 +1,8 @@
 <template>
   <div>
-    <main>
-      <section class="products">
-        <div class="container">
-          <h2>Unsere Produkte</h2>
-          <p>Entdecken Sie unsere Produkte</p>
-          <a href="#/catalogue" class="btn btn-primary">Produkte anzeigen</a>
-        </div>
-      </section>
-      <section class="blog">
-      <div class="container">
-        <h2>Blog</h2>
-        <p>Über die Herstellung unserer Produkte</p>
-        <a href="#/blog" class="btn btn-primary">Blog aufrufen</a>
-      </div>
-      </section>
-      <section class="about">
-        <div class="container">
-          <h2>Über uns</h2>
-          <p>Erfahren Sie mehr über uns</p>
-          <a href="#/about" class="btn btn-primary">Über uns erfahren</a>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2023 Natamara. Alle Rechte vorbehalten.</p>
-    </footer>
+    <a href="#/catalogue" class="btn btn-primary">Produkte</a>
+    <a href="#/blog" class="btn btn-primary">Blog</a>
+    <a href="#/about" class="btn btn-primary">Über uns</a>
   </div>
 </template>
 
@@ -36,5 +13,15 @@ export default {
 </script>
 
 <style scoped>
+  div {
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  a {
+    margin: 10px;
+  }
 </style>

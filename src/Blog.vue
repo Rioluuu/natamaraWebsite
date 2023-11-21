@@ -1,3 +1,5 @@
 <template>
-  <h1>Blog</h1>
+  <main>
+    blog
+  </main>
 </template>

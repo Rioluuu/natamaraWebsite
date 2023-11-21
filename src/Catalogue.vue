@@ -20,14 +20,14 @@
 
 
 <template>
-    <h1>Katalog</h1>
+  <main>
     <div id="wrapper">
         <CatalogueItem  v-for="x in products"
       :name ="x.name"
       :description="x.description"
       :imageUrl="x.imageUrl" />
     </div>
-    
+  </main>
 </template>
 
 <style scoped>

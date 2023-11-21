@@ -4,6 +4,7 @@ import LandingButtons from "./components/LandingButtons.vue";
 
 <template>
   <main>
+    <img src="./assets/logo_superlarge.svg" alt="Natamara Logo" class="responsive">
     <LandingButtons/>
   </main>
 </template>
@@ -11,6 +12,15 @@ import LandingButtons from "./components/LandingButtons.vue";
 <style scoped>
 header {
   line-height: 1.3;
+}
+
+.responsive {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
 }
 
 .logo {
