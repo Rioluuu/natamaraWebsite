@@ -31,3 +31,4 @@ const currentView = computed(() => {
     <p>&copy; 2023 Natamara. Alle Rechte vorbehalten.</p>
   </footer>
 </template>
+

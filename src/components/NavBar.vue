@@ -17,6 +17,7 @@ div {
 
 ul {
   background-color: #ece7ca;
+  box-shadow: 0 0 6px #c9c29f;
   list-style-type: none;
   margin: 0;
   padding: 0;

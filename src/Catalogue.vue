@@ -8,9 +8,9 @@
         data() {
     return {
       products: [
-        {name: "Test1", description: "awdaew", imageUrl: "../assets/logo_small.svg"},
-        {name: "Test2", description: "awdawdaew", imageUrl: "../assets/logo_small.svg"},
-        {name: "Test3", description: "awdaawadaew", imageUrl: "../assets/logo_small.svg"},
+        {name: "Test1", description: "awdaew", price: "1,00€", imageUrl: "../assets/logo_small.svg"},
+        {name: "Test2", description: "awdawdaew", price: "3,00€", imageUrl: "../assets/logo_small.svg"},
+        {name: "Test3", description: "awdaawadaew", price: "2,00€", imageUrl: "../assets/logo_small.svg"},
       ]
     };
   }
@@ -20,11 +20,12 @@
 
 
 <template>
-  <main>
+  <main style="padding: 0">
     <div id="wrapper">
         <CatalogueItem  v-for="x in products"
       :name ="x.name"
       :description="x.description"
+      :price="x.price"
       :imageUrl="x.imageUrl" />
     </div>
   </main>
@@ -37,7 +38,7 @@
   }
   #wrapper > div {
     flex-basis: 120px;
-    margin: 10px;
-    padding: 10px;
+    margin: 12px;
+    padding: 12px;
   }
 </style> 

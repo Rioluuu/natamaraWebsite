@@ -7,14 +7,12 @@
 
 main {
   padding: 16px;
-  padding-top: 0;
 }
 
 footer {
   text-align: center;
-  bottom: 10px;
   width: 100%;
-  position: absolute;
+  position: relative;
 }
 
 a,
@@ -37,6 +35,7 @@ a,
 
 .btn-primary {
   background-color: #89a383;
+  box-shadow: 0 0 6px #697d65;
 }
 
 li a:hover {
