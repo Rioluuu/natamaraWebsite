@@ -2,7 +2,7 @@
     <div class="blog-item">
       <img src="../assets/logo_small.svg" class="item-image" alt="kleines Natamara-Logo">
       <div class="blog-item-text">
-        <a :href="link"><h2 class="item-name"> » {{ name }}</h2></a>
+        <a :href="link"><h2 style="font-weight: 500;" class="item-name"> » {{ name }}</h2></a>
         <p class="item-description">{{ description }}</p>
       </div>
     </div>
