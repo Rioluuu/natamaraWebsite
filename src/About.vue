@@ -1,5 +1,6 @@
 <template>
   <main>
+    <h1>Über uns</h1>
     <div class="about-us">
       <section class="history">
         <h2>Unsere Gründungsgeschichte</h2>
