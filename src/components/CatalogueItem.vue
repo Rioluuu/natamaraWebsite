@@ -100,9 +100,9 @@
     margin: 8px 0;
   }
 
-.button-wrapper {
-  display: flex;
-}
+  .button-wrapper {
+    display: flex;
+  }
 
   .item-button {
     display:block;
@@ -111,13 +111,12 @@
     border-radius: 50%;
     border: 2px solid grey;
     margin-left: 8px;
+    cursor: pointer;
   }
   
   .item-description {
     text-align: center;
-    margin: 8px 0;
-    margin-top: 20px;
-    margin-right: 5px;
+    margin: 20px 5px 8px 0;
     float: right;
   }
 

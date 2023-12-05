@@ -60,10 +60,13 @@
   #wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
   #wrapper > div {
-    flex-basis: 120px;
+    flex: 1;
     margin: 12px;
     padding: 12px;
+    box-sizing: border-box;
+    max-width: 400px;
   }
 </style> 
