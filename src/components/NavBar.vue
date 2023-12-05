@@ -5,6 +5,7 @@
     <li><a href="#/catalogue"><h3>Katalog</h3></a></li>
     <li><a href="#/blog"><h3>Blog</h3></a></li>
     <li style="float:right"><a href="#/about"><h3>Über uns</h3></a></li>
+    <li style="float:right"><a href="https://www.instagram.com/natamara_beauty/" style="background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);" class="btn btn-instagram-primary">Instagram</a></li>
   </ul>
   </div>
 </template>
