@@ -9,7 +9,7 @@
     return {
       products: [
         {name: "Seife", price: "5,00€",
-        imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small.svg", "src/assets/logo_small_red.svg"],
+        imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small_blue.svg", "src/assets/logo_small_red2.svg"],
         colors: ["blue", "green", "red", "orange"],
         descriptions: ["Lavendel", "Zitrone", "Orange", "Bratapfel"]},
       
@@ -24,12 +24,12 @@
          descriptions: [" "]},
 
         {name: "Peelings", price: "7,50€",
-          imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small.svg"],
+          imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small_blue.svg"],
           colors: ["blue", "green", "red"],
           descriptions: ["Zitrone-Thymian", "Zucker-Rosmarin", "Lavendel"]},
 
         {name: "Kerzen", price: "5,00€",
-          imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small.svg"],
+          imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small_blue.svg"],
           colors: ["red", "green", "yellow"],
           descriptions: ["rot", "grün", "gelb"]},
       ]
