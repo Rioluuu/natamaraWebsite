@@ -8,21 +8,30 @@
         data() {
     return {
       products: [
-        {name: "Test1", description: "awdaew", price: "1,00€", 
-        imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg"],
-        colors: ["blue", "green"],
-        descriptions: ["Sorte 1", "Sorte 2", "Sorte 3"]},
+        {name: "Seife", price: "5,00€",
+        imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small.svg", "src/assets/logo_small_red.svg"],
+        colors: ["blue", "green", "red", "orange"],
+        descriptions: ["Lavendel", "Zitrone", "Orange", "Bratapfel"]},
       
-        {name: "Test2", description: "awdawdaew", price: "3,00€", 
-         imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small_blue.svg"],
-         colors: ["blue", "green", "red"],
-        descriptions: ["Sorte 1", "Sorte 2", "Sorte 3"]},
+        {name: "Handcreme", price: "4,00€",
+         imageUrls: ["src/assets/logo_small.svg"],
+         colors: ["blue"],
+        descriptions: ["Aloe vera"]},
 
+        {name: "Lippenbalsam", price: "2,00€",
+         imageUrls: ["src/assets/logo_small.svg"],
+         colors: ["blue"],
+         descriptions: [" "]},
 
-        {name: "Test3", description: "awdaawadaew", price: "2,00€", 
-         imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg"],
-         colors: ["blue", "green"],
-         descriptions: ["Sorte 1", "Sorte 2", "Sorte 3"]},
+        {name: "Peelings", price: "7,50€",
+          imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small.svg"],
+          colors: ["blue", "green", "red"],
+          descriptions: ["Zitrone-Thymian", "Zucker-Rosmarin", "Lavendel"]},
+
+        {name: "Kerzen", price: "5,00€",
+          imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small.svg"],
+          colors: ["red", "green", "yellow"],
+          descriptions: ["rot", "grün", "gelb"]},
       ]
     };
   }
