@@ -10,14 +10,19 @@
       products: [
         {name: "Test1", description: "awdaew", price: "1,00€", 
         imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg"],
-        colors: ["blue", "green"]},
-         
+        colors: ["blue", "green"],
+        descriptions: ["Sorte 1", "Sorte 2", "Sorte 3"]},
+      
         {name: "Test2", description: "awdawdaew", price: "3,00€", 
          imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small_blue.svg"],
-         colors: ["blue", "green", "red"]},
+         colors: ["blue", "green", "red"],
+        descriptions: ["Sorte 1", "Sorte 2", "Sorte 3"]},
+
+
         {name: "Test3", description: "awdaawadaew", price: "2,00€", 
          imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg"],
-         colors: ["blue", "green"]},
+         colors: ["blue", "green"],
+         descriptions: ["Sorte 1", "Sorte 2", "Sorte 3"]},
       ]
     };
   }
@@ -34,10 +39,10 @@
     <div id="wrapper">
         <CatalogueItem  v-for="x in products"
       :name ="x.name"
-      :description="x.description"
       :price="x.price"
       :imageUrls ="x.imageUrls"
-      :colors = "x.colors" />
+      :colors = "x.colors"
+      :descriptions="x.descriptions" />
     </div>
   </main>
 </template>

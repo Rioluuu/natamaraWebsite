@@ -1,8 +1,11 @@
 <template>
     <div class="shop-item">
       <img :src=imageUrl class="item-image" alt="kleines Natamara-Logo">
-      <h2 class="item-name">{{ name }}</h2>
-      <!-- <p class="item-description">{{ description }}</p>-->
+      <div class="name-row">
+        <h2 class="item-name">{{ name }}</h2>
+        <p class="item-description">{{ setupDescription }}</p>
+      </div> 
+     
       <h2 class="item-price">{{ price }}</h2>
       <div class="button-wrapper">
         <div v-for="image in imageUrls" class="item-button-list">
@@ -21,13 +24,16 @@
         
         props: {
             name: String,
-            description: String,
             price: String,
             imageUrls: {
               type: Array,
               require: true
             },
             colors: {
+              type: Array,
+              require: true
+            },
+            descriptions: {
               type: Array,
               require: true
             }
@@ -37,11 +43,10 @@
             this.imageIndex = this.imageUrls.indexOf(item)
         },
         setupStyle(image) {
-            console.log("test")
             let i = this.imageUrls.indexOf(image);
             return "background-color:" + this.colors[i];
             
-          }
+          },
         
         
         },
@@ -49,6 +54,9 @@
           imageUrl() {
             return this.imageUrls[this.imageIndex];
           },
+          setupDescription() {
+            return this.descriptions[this.imageIndex];
+          }
           
           
           },
@@ -83,6 +91,10 @@
     width: 20rem;
   }
   
+  .name-row {
+    display: flex;
+    justify-content: space-between;
+  }
   .item-name {
     font-size: 1.5rem;
     margin: 8px 0;
@@ -102,9 +114,11 @@
   }
   
   .item-description {
-    text-align: left;
+    text-align: center;
     margin: 8px 0;
-    float: left;
+    margin-top: 20px;
+    margin-right: 5px;
+    float: right;
   }
 
   .item-price {
