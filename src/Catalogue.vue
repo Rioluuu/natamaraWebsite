@@ -8,9 +8,16 @@
         data() {
     return {
       products: [
-        {name: "Test1", description: "awdaew", price: "1,00€", imageUrl: "../assets/logo_small.svg"},
-        {name: "Test2", description: "awdawdaew", price: "3,00€", imageUrl: "../assets/logo_small.svg"},
-        {name: "Test3", description: "awdaawadaew", price: "2,00€", imageUrl: "../assets/logo_small.svg"},
+        {name: "Test1", description: "awdaew", price: "1,00€", 
+        imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg"],
+        colors: ["blue", "green"]},
+         
+        {name: "Test2", description: "awdawdaew", price: "3,00€", 
+         imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small_blue.svg"],
+         colors: ["blue", "green", "red"]},
+        {name: "Test3", description: "awdaawadaew", price: "2,00€", 
+         imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg"],
+         colors: ["blue", "green"]},
       ]
     };
   }
@@ -29,7 +36,8 @@
       :name ="x.name"
       :description="x.description"
       :price="x.price"
-      :imageUrl="x.imageUrl" />
+      :imageUrls ="x.imageUrls"
+      :colors = "x.colors" />
     </div>
   </main>
 </template>

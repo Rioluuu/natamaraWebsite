@@ -15,7 +15,7 @@
             description: String,
             imageUrl: String,
             link: String
-        }
+          }
     }
   </script>
   
