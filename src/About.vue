@@ -5,22 +5,35 @@
       <section class="history">
         <h2>Unsere Gründungsgeschichte</h2>
         <p>
-          Hier können Sie Ihre Gründungsgeschichte oder Hintergrundinformationen über Ihr Unternehmen oder Team hinzufügen.
+          Wir haben die Natamara Schülerfirma im Rahmen des Seminarfaches von Frau Stäudte gebildet.<br>
+          Unsere Grundidee sind qualitative und nachhaltige Produkte von Schülern für Schüler und Eltern.<br>
+          Begonnen haben wir mit einer Namensfindung und möglichen Produkten, wie zum Beispiel Badebomben und Deo neben unseren vorhandenen Katalog.<br>
+          Natamara stellt sich in diesem Fall aus Natürlich und "Amara", welches aus dem {Sprache} kommt und etwas natürliches Symbolisiert.<br>
+          Jeder Kauf unterstützt unsere Abikasse!
         </p>
       </section>
 
       <section class="team-photo">
         <h2>Unser Team</h2>
+        <p>
+          Wir haben unsere Aufgabengebiete wie folgt aufgeteilt, um effizienter arbeiten zu können und unsere eigenen Stärken bestmöglichst einzusetzen:<br><br>
+          Geschäftsführung: Celine, Jenna<br>
+          IT: Christian, Maurice, Thomas<br>
+          Finanzen/Rechtsabteilung: Malik, Karlotta, Kathleen, Annika<br>
+          Design/Marketing: Jannik, Lisa, Johann, Mohammed, Jasper<br>
+          Rezeptur: Jenna, Paul, Mika, Nicolas<br><br>
+          betreuende Lehrkraft: Andrea Stäudte
+        </p>
         <!-- <img src="assets/gruppenfoto.jpg" alt="Unser Team" /> -->
       </section>
 
       <section class="product-ideas">
         <h2>Unsere Produktideen</h2>
         <ul>
-          <li>Seife: Wie letztes Jahr bieten wir wieder Seife </li>
-          <li>Handcreme: Beschreibung der zweiten Produktidee.</li>
-          <li>Labelo: Beschreibung der dritten Produktidee.</li>
-          <li>Peelings: </li>
+          <li>Seife: {Rezeptur} </li>
+          <li>Handcreme: {Rezeptur}</li>
+          <li>Labelo: {Rezeptur}</li>
+          <li>Peelings: {Rezeptur} </li>
           <!-- Fügen Sie weitere Produktideen nach Bedarf hinzu -->
         </ul>
       </section>
