@@ -1,7 +1,7 @@
 <template>
     <div class="shop-item">
       <div class="item-image-div">
-        <img :src=imageUrl class="item-image" alt="kleines Natamara-Logo">
+        <img :src=imageUrl class="item-image">
       </div>
       
       <div class="name-row">
@@ -10,7 +10,7 @@
       </div> 
      
       <h2 class="item-price">{{ price }}</h2>
-      <div class="button-wrapper">
+      <div v-if="imageUrls.length !== 1" class="button-wrapper">
         <div v-for="image in imageUrls" class="item-button-list">
           <button @click="switchBttn(image)" :style="setupStyle(image)" class="item-button"></button>
         </div>
@@ -92,12 +92,12 @@
   .item-image-div {
     width: 20rem;
     height: 20rem;
-    border-radius: 12px;
     overflow:hidden;
   }
 
   .item-image {
     max-width: 80%;
+    border-radius: 12px;
   }
   
   .name-row {
