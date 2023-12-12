@@ -2,19 +2,17 @@
   <NavBar />
   <main>
     <h1>Über uns</h1>
-    <div class="about-us">
-      <section class="history">
+    <div class="About">
+      <section class="Text">
         <h2>Unsere Gründungsgeschichte</h2>
-        <p>
-          Wir haben die Natamara Schülerfirma im Rahmen des Seminarfaches von Frau Stäudte gebildet.<br>
-          Unsere Grundidee sind qualitative und nachhaltige Produkte von Schülern für Schüler und Eltern.<br>
-          Begonnen haben wir mit einer Namensfindung und möglichen Produkten, wie zum Beispiel Badebomben und Deo neben unseren vorhandenen Katalog.<br>
-          Natamara stellt sich in diesem Fall aus Natürlich und "Amara", welches aus dem {Sprache} kommt und etwas natürliches Symbolisiert.<br>
-          Jeder Kauf unterstützt unsere Abikasse!
-        </p>
+          <p>Wir haben die Natamara Schülerfirma im Rahmen des Seminarfaches von Frau Stäudte gebildet.</p>
+          <p>Unsere Grundidee sind qualitative und nachhaltige Produkte von Schülern für Schüler und Eltern.</p>
+          <p>Begonnen haben wir mit einer Namensfindung und möglichen Produkten, wie zum Beispiel Badebomben und Deo neben unseren vorhandenen Katalog.</p>
+          <p>Natamara stellt sich in diesem Fall aus Natürlich und "Amara", welches aus dem Asiatischen kommt und etwas natürliches Symbolisiert.</p>
+          <p>Jeder Kauf unterstützt unsere Abikasse!</p>
       </section>
 
-      <section class="team-photo">
+      <section class="Text">
         <h2>Unser Team</h2>
         <p>
           Wir haben unsere Aufgabengebiete wie folgt aufgeteilt, um effizienter arbeiten zu können und unsere eigenen Stärken bestmöglichst einzusetzen:<br><br>
@@ -25,18 +23,17 @@
           Rezeptur: Jenna, Paul, Mika, Nicolas<br><br>
           betreuende Lehrkraft: Andrea Stäudte
         </p>
-        <!-- <img src="assets/gruppenfoto.jpg" alt="Unser Team" /> -->
       </section>
 
-      <section class="product-ideas">
+      <section>
         <h2>Unsere Produktideen</h2>
         <ul>
-          <li>Seife: {Rezeptur} </li>
-          <li>Handcreme: {Rezeptur}</li>
-          <li>Labelo: {Rezeptur}</li>
-          <li>Peelings: {Rezeptur} </li>
-          <!-- Fügen Sie weitere Produktideen nach Bedarf hinzu -->
+          <li>Seife</li>
+          <li>Handcreme</li>
+          <li>Labelo</li>
+          <li>Peelings</li>
         </ul>
+        <img src="../src/assets/PXL_20231212_143110340~2.jpg" class="Bild">
       </section>
     </div>
   </main>
@@ -53,20 +50,17 @@ export default {
 </script>
 
 <style scoped>
-/* Fügen Sie hier Ihr CSS-Styling hinzu, um die Seite anzupassen */
-.about-us {
-  /* Stil für die Gesamtseite */
+.Bild {
+  border-radius: 12px;
+  max-width: 400px;
+  max-height: 150px;
 }
-
-.history {
-  /* Stil für den Abschnitt mit der Gründungsgeschichte */
+.About{
+  max-width: 100%;
+  max-height: 100%;
 }
-
-.team-photo {
-  /* Stil für den Abschnitt mit dem Gruppenfoto */
-}
-
-.product-ideas {
-  /* Stil für den Abschnitt mit den Produktideen */
+.Text{
+  max-width: 75%;
+  max-height: 75%;
 }
 </style>
