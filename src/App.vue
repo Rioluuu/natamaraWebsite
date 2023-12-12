@@ -1,14 +1,14 @@
 <script setup>
 import { ref, computed } from 'vue'
 import Landing from './Landing.vue'
-import Blog from './Blog.vue'
 import Catalogue from './Catalogue.vue'
 import About from './About.vue'
-import NavBar from './components/NavBar.vue'
+import Ingredients from "./Ingredients.vue";
 
 const routes = {
   '/': Landing,
   '/catalogue': Catalogue,
+  '/ingredients': Ingredients,
   '/about': About
 }
 

@@ -5,7 +5,7 @@
     export default {
         components: {
           NavBar,
-        CatalogueItem, 
+          CatalogueItem,
         },
         data() {
     return {

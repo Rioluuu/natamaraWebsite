@@ -1,15 +1,12 @@
 <template>
     <div class="shop-item">
-      <div class="item-image-div">
-        <img :src=imageUrl class="item-image">
+      <h2 class="item-name">{{ name }}</h2>
+      <div v-if="descriptions != null">
+        <h3>Sorte: <u>{{ setupDescription }}</u></h3>
       </div>
-      <div class="name-row">
-        <h2 class="item-name">{{ name }}</h2>
-        <p class="item-description">{{ setupDescription }}</p>
-      </div>
-      <h2 class="item-price">{{ price }}</h2>
+      {{ setupIngredients }}
       <div v-if="imageUrls.length !== 1" class="button-wrapper">
-        <div v-for="image in imageUrls" class="item-button-list">
+        <div v-for="image in imageUrls">
           <button @click="switchBttn(image)" :style="setupStyle(image)" class="item-button"></button>
         </div>
       </div>
@@ -36,6 +33,10 @@
             },
             descriptions: {
               type: Array,
+              require: false
+            },
+            ingredients: {
+              type: Array,
               require: true
             }
         },
@@ -54,6 +55,9 @@
         computed: { 
           imageUrl() {
             return this.imageUrls[this.imageIndex];
+          },
+          setupIngredients() {
+            return this.ingredients[this.imageIndex];
           },
           setupDescription() {
             return this.descriptions[this.imageIndex];
@@ -85,23 +89,11 @@
     text-align: center;
     background-color: #ece7ca;
     box-shadow: 0 0 6px #c9c29f;
-  }
-  
-  .item-image-div {
-    width: 20rem;
-    height: 20rem;
-    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .item-image {
-    max-width: 80%;
-    border-radius: 12px;
-  }
-  
-  .name-row {
-    display: flex;
-    justify-content: space-between;
-  }
   .item-name {
     font-size: 1.5rem;
     margin: 8px 0;
@@ -109,6 +101,7 @@
 
   .button-wrapper {
     display: flex;
+    justify-content: center;
   }
 
   .item-button {
@@ -119,17 +112,6 @@
     border: 2px solid grey;
     margin-left: 8px;
     cursor: pointer;
-  }
-  
-  .item-description {
-    text-align: center;
-    margin: 20px 5px 8px 0;
-    float: right;
-  }
-
-  .item-price {
-    float: right;
-    font-weight: bold;
   }
   </style>
   
