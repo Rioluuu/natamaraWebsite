@@ -8,7 +8,7 @@ import Ingredients from "./Ingredients.vue";
 const routes = {
   '/': Landing,
   '/catalogue': Catalogue,
-  '/ingredients': Ingredients,
+  '/catalogue/ingredients': Ingredients,
   '/about': About
 }
 
