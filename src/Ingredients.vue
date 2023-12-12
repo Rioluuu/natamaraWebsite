@@ -47,6 +47,7 @@
   <NavBar />
   <main style="padding-top:0;padding-bottom:0;">
     <h1>Inhaltsstoffe</h1>
+    <a href="#/catalogue"><u>» zum Katalog</u></a>
   </main>
   <main style="padding: 0">
     <div id="wrapper">
