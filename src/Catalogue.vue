@@ -11,29 +11,29 @@
     return {
       products: [
         {name: "Seife", price: "5,00€",
-        imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small_blue.svg", "src/assets/logo_small_red2.svg"],
-        colors: ["blue", "green", "red", "orange"],
+        imageUrls: ["src/assets/Produktbilder/SeifeZitrone.jpg", "src/assets/Produktbilder/SeifeOrange.jpg", "src/assets/Produktbilder/SeifeLavendel.jpg", "src/assets/Produktbilder/SeifeBratapfel.jpg"],
+        colors: ["#d9c022", "#ffa500", "#e6e6fa", "#d32a4a"],
         descriptions: ["Lavendel", "Zitrone", "Orange", "Bratapfel"]},
       
         {name: "Handcreme", price: "4,00€",
-         imageUrls: ["src/assets/logo_small.svg"],
-         colors: ["blue"],
+         imageUrls: ["src/assets/Produktbilder/HandCremeKlein.jpg"],
+         colors: ["white"],
         descriptions: ["Aloe vera"]},
 
         {name: "Lippenbalsam", price: "2,00€",
-         imageUrls: ["src/assets/logo_small.svg"],
-         colors: ["blue"],
+         imageUrls: ["src/assets/Produktbilder/HandCremeGroß.jpg"],
+         colors: ["white"],
          descriptions: [" "]},
 
         {name: "Peelings", price: "7,50€",
-          imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small_blue.svg"],
-          colors: ["blue", "green", "red"],
+          imageUrls: ["src/assets/Produktbilder/Peeling1.jpg", "src/assets/Produktbilder/Peeling2.jpg", "src/assets/Produktbilder/Peeling3.jpg"],
+          colors: ["#727b6c", "#6b9e49", "#d9c022"],
           descriptions: ["Zitrone-Thymian", "Zucker-Rosmarin", "Lavendel"]},
 
         {name: "Kerzen", price: "5,00€",
-          imageUrls: ["src/assets/logo_small.svg", "src/assets/logo_small_red.svg", "src/assets/logo_small_blue.svg"],
-          colors: ["red", "green", "yellow"],
-          descriptions: ["rot", "grün", "gelb"]},
+          imageUrls: ["src/assets/Produktbilder/RoteKerze.jpg", "src/assets/Produktbilder/GrueneKerze.jpg", "src/assets/Produktbilder/OrangeKerze.jpg"],
+          colors: ["red", "green", "orange"],
+          descriptions: ["rot", "grün", "orange"]},
       ]
     };
   }

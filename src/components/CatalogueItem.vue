@@ -1,6 +1,9 @@
 <template>
     <div class="shop-item">
-      <img :src=imageUrl class="item-image" alt="kleines Natamara-Logo">
+      <div class="item-image-div">
+        <img :src=imageUrl class="item-image" alt="kleines Natamara-Logo">
+      </div>
+      
       <div class="name-row">
         <h2 class="item-name">{{ name }}</h2>
         <p class="item-description">{{ setupDescription }}</p>
@@ -86,9 +89,15 @@
     box-shadow: 0 0 6px #c9c29f;
   }
   
-  .item-image {
-    height: auto;
+  .item-image-div {
     width: 20rem;
+    height: 20rem;
+    border-radius: 12px;
+    overflow:hidden;
+  }
+
+  .item-image {
+    max-width: 80%;
   }
   
   .name-row {
