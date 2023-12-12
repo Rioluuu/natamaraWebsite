@@ -8,7 +8,6 @@ import NavBar from './components/NavBar.vue'
 
 const routes = {
   '/': Landing,
-  '/blog': Blog,
   '/catalogue': Catalogue,
   '/about': About
 }
@@ -25,7 +24,6 @@ const currentView = computed(() => {
 </script>
 
 <template>
-  <NavBar />
   <component :is="currentView" />
   <footer>
     <p>&copy; 2023 Natamara. Alle Rechte vorbehalten.</p>

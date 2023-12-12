@@ -1,5 +1,6 @@
 <script setup>
 import LandingButtons from "./components/LandingButtons.vue";
+import NavBar from "@/components/NavBar.vue";
 </script>
 
 <template>

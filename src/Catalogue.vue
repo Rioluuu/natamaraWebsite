@@ -1,8 +1,10 @@
 <script>
     import CatalogueItem from './components/CatalogueItem.vue'
+    import NavBar from "@/components/NavBar.vue";
 
     export default {
         components: {
+          NavBar,
         CatalogueItem, 
         },
         data() {
@@ -41,6 +43,7 @@
 
 
 <template>
+  <NavBar />
   <main style="padding-top:0;padding-bottom:0;">
     <h1>Katalog</h1>
   </main>

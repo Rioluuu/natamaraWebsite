@@ -1,4 +1,5 @@
 <template>
+  <NavBar />
   <main>
     <h1>Über uns</h1>
     <div class="about-us">
@@ -43,8 +44,11 @@
 </template>
 
 <script>
+import NavBar from "@/components/NavBar.vue";
+
 export default {
   name: "AboutUs",
+  components: {NavBar},
 };
 </script>
 

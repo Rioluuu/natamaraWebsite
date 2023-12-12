@@ -1,7 +1,7 @@
 <template>
   <div>
     <a href="#/catalogue" class="btn btn-primary">Produkte</a>
-    <a href="#/blog" class="btn btn-primary">Blog</a>
+    <a href="#/about" class="btn btn-primary">Über uns</a>
   </div>
 </template>
 
