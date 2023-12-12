@@ -64,10 +64,9 @@
   #wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
   }
   #wrapper > div {
-    flex: 1;
     margin: 12px;
     padding: 12px;
     box-sizing: border-box;

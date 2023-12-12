@@ -90,11 +90,15 @@
   .item-image-div {
     width: 20rem;
     height: 20rem;
-    overflow:hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
   }
 
   .item-image {
-    max-width: 80%;
+    max-width: 100%;
     border-radius: 12px;
   }
   

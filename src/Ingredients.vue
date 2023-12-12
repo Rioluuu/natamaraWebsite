@@ -66,7 +66,7 @@
   #wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
   }
   #wrapper > div {
     flex: 1;
