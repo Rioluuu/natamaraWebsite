@@ -35,7 +35,7 @@
           <li>Handcreme</li>
           <li>Peelings</li>
         </ul>
-        <img src="../src/assets/Produktbilder/ProduktGruppenFoto.jpg" class="Bild">
+        <img src="Produktbilder/ProduktGruppenFoto.jpg" class="Bild">
       </section>
     </div>
   </main>

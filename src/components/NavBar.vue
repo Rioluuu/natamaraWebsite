@@ -1,7 +1,7 @@
 <template>
   <div>
     <ul>
-    <li><a href="#/"><img src="../assets/logo_small.svg" alt="Natamara Logo" height="25px"></a></li>
+    <li><a href="#/"><img src="logo_small.svg" alt="Natamara Logo" height="25px"></a></li>
     <li><a href="#/catalogue"><h3>Katalog</h3></a></li>
     <li><a href="#/about"><h3>Über uns</h3></a></li>
     <li style="float:right"><a href="https://www.instagram.com/natamara_beauty/" target="_blank" class="btn btn-instagram-primary">Instagram</a></li>

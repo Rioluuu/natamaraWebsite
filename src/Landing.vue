@@ -5,7 +5,7 @@ import NavBar from "@/components/NavBar.vue";
 
 <template>
   <main>
-    <img src="./assets/logo_superlarge.svg" alt="Natamara Logo" class="responsive">
+    <img src="/logo_superlarge.svg" alt="Natamara Logo" class="responsive">
     <LandingButtons/>
   </main>
 </template>
