@@ -26,9 +26,9 @@
          descriptions: [" "]},
 
         {name: "Peelings", price: "7,50€",
-          imageUrls: ["src/assets/Produktbilder/Peeling1.jpg", "src/assets/Produktbilder/Peeling2.jpg", "src/assets/Produktbilder/Peeling3.jpg"],
-          colors: ["#727b6c", "#6b9e49", "#967BB6"],
-          descriptions: ["Zitrone-Thymian", "Zucker-Rosmarin", "Lavendel"]},
+          imageUrls: ["src/assets/Produktbilder/Peeling1.jpg", "src/assets/Produktbilder/Peeling2.jpg", "src/assets/Produktbilder/Peeling3.jpg", "src/assets/Produktbilder/Peeling4.jpg"],
+          colors: ["#727b6c", "#6b9e49", "#d9c022", "#967BB6"],
+          descriptions: ["Zitrone-Thymian", "Rosmarin", "Zitrone-Rosmarin", "Lavendel"]},
 
         {name: "Kerzen", price: "5,00€",
           imageUrls: ["src/assets/Produktbilder/RoteKerze.jpg", "src/assets/Produktbilder/GrueneKerze.jpg", "src/assets/Produktbilder/OrangeKerze.jpg"],
