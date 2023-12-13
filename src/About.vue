@@ -33,8 +33,10 @@
         <ul>
           <li>Seife</li>
           <li>Handcreme</li>
+          <li>Lippenbalsam</li>
           <li>Peelings</li>
         </ul>
+        <h2>Unser Sortiment</h2>
         <img src="Produktbilder/ProduktGruppenFoto.jpg" class="Bild">
       </section>
     </div>
@@ -54,11 +56,12 @@ export default {
 <style scoped>
 .Bild {
   border-radius: 12px;
-  max-width: 600px;
+  margin: auto;
+  max-width: 100%;
   max-height: Auto;
 }
 .About{
-  max-width: 100%;
+  max-width: 800px;
   max-height: 100%;
   border: 0;
   border-radius: 12px;
@@ -66,14 +69,14 @@ export default {
   text-align: center;
   background-color: #ece7ca;
   box-shadow: 0 0 6px #c9c29f;
+  margin:auto;
 }
 .Text{
-  max-width: 75%;
-  max-height: 75%;
+  max-width: 100%;
   text-align: left;
 }
 .Subtext{
-  max-width: 700px;
+  max-width: 100%;
   line-height: 25px;
   hyphens: auto;
   text-align: justify;
