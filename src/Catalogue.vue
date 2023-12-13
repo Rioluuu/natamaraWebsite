@@ -11,27 +11,27 @@
     return {
       products: [
         {name: "Seife", price: "5,00€",
-        imageUrls: ["/Produktbilder/SeifeZitrone.jpg", "/Produktbilder/SeifeOrange.jpg", "/Produktbilder/SeifeLavendel.jpg", "/Produktbilder/SeifeBratapfel.jpg"],
+        imageUrls: ["/natamaraWebsite/Produktbilder/SeifeZitrone.jpg", "/natamaraWebsite/Produktbilder/SeifeOrange.jpg", "/natamaraWebsite/Produktbilder/SeifeLavendel.jpg", "/natamaraWebsite/Produktbilder/SeifeBratapfel.jpg"],
         colors: ["#d9c022", "#ffa500", "#967BB6", "#d32a4a"],
         descriptions: ["Zitrone", "Orange", "Lavendel", "Bratapfel"]},
       
         {name: "Handcreme", price: "4,00€",
-         imageUrls: ["/Produktbilder/HandCremeKlein.jpg"],
+         imageUrls: ["/natamaraWebsite/Produktbilder/HandCremeKlein.jpg"],
          colors: ["white"],
         descriptions: ["Aloe vera"]},
 
         {name: "Lippenbalsam", price: "2,00€",
-         imageUrls: ["/Produktbilder/HandCremeGroß.jpg"],
+         imageUrls: ["/natamaraWebsite/Produktbilder/HandCremeGroß.jpg"],
          colors: ["white"],
          descriptions: [" "]},
 
         {name: "Peelings", price: "7,50€",
-          imageUrls: ["/Produktbilder/Peeling1.jpg", "/Produktbilder/Peeling2.jpg", "/Produktbilder/Peeling3.jpg", "/Produktbilder/Peeling4.jpg"],
+          imageUrls: ["/natamaraWebsite/Produktbilder/Peeling1.jpg", "/natamaraWebsite/Produktbilder/Peeling2.jpg", "/natamaraWebsite/Produktbilder/Peeling3.jpg", "/natamaraWebsite/Produktbilder/Peeling4.jpg"],
           colors: ["#727b6c", "#6b9e49", "#d9c022", "#967BB6"],
           descriptions: ["Zitrone-Thymian", "Rosmarin", "Zitrone-Rosmarin", "Lavendel"]},
 
         {name: "Kerzen", price: "5,00€",
-          imageUrls: ["/Produktbilder/RoteKerze.jpg", "/Produktbilder/GrueneKerze.jpg", "/Produktbilder/OrangeKerze.jpg"],
+          imageUrls: ["/natamaraWebsite/Produktbilder/RoteKerze.jpg", "/natamaraWebsite/Produktbilder/GrueneKerze.jpg", "/natamaraWebsite/Produktbilder/OrangeKerze.jpg"],
           colors: ["red", "green", "orange"],
           descriptions: ["rot", "grün", "orange"]},
       ]
