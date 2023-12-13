@@ -1,6 +1,5 @@
 <script setup>
 import LandingButtons from "./components/LandingButtons.vue";
-import NavBar from "@/components/NavBar.vue";
 </script>
 
 <template>
@@ -15,13 +14,16 @@ header {
   line-height: 1.3;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
 .responsive {
   width: 70%;
   height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
 }
 
 .logo {

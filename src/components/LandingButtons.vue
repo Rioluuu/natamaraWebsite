@@ -2,6 +2,7 @@
   <div>
     <a href="#/catalogue" class="btn btn-primary">Produkte</a>
     <a href="#/about" class="btn btn-primary">Über uns</a>
+    <a href="https://www.instagram.com/natamara_beauty/" class="btn btn-primary">Instagram</a>
   </div>
 </template>
 
